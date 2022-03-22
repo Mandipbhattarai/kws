@@ -1,0 +1,279 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: Cabin;
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #ada7a7;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #47467C;
+}
+
+.my-section {
+  margin-top: 40px;
+  padding-bottom: 30px;
+  font-size: 45px;
+  font-family: Poppins;
+  font-weight: 600;
+  color: #47467C;
+}
+
+*::-moz-selection {
+  color: #f1f1f1;
+  background: #47467C;
+}
+
+*::selection {
+  color: #f1f1f1;
+  background: #47467C;
+}
+
+img::-moz-selection {
+  background: transparent;
+}
+
+img::selection {
+  background: transparent;
+}
+
+.active {
+  color: #47467C !important;
+}
+
+header {
+  min-height: 100vh;
+  background: url("../assest/img/background.png") no-repeat;
+  background-size: cover;
+}
+
+header nav .container .navbar-brand img {
+  height: 40px;
+}
+
+header nav .container .navbar-collapse .navbar-nav li {
+  padding-right: 15px;
+}
+
+header nav .container .navbar-collapse .navbar-nav li a {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+header nav .container .navbar-collapse .navbar-nav li a:hover {
+  color: #47467C !important;
+}
+
+header #intro {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 90vh;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+header #intro .container .row .col-md-6 h1 {
+  font-size: 55px;
+  font-weight: 900;
+  margin-top: 10px;
+  color: #575757;
+}
+
+header #intro .container .row .col-md-6 p {
+  font-size: 18px;
+  color: #6d6d6d;
+  padding-bottom: 2px;
+  line-height: 160%;
+}
+
+header #intro .container .row .col-md-6 a {
+  padding: 8px 60px;
+  font-size: 20px;
+  border: 2px solid #47467C;
+  letter-spacing: 1.7px;
+  font-weight: 600;
+  background: #47467C;
+  -webkit-transition: .6s transform;
+  transition: .6s transform;
+  margin-bottom: 20px;
+}
+
+header #intro .container .row .col-md-6 a:hover {
+  background-color: transparent;
+  color: #000;
+  -webkit-transform: translateY(-10px);
+          transform: translateY(-10px);
+}
+
+header #intro .container .row .col-md-6 .embed-responsive-16by9 {
+  border-radius: 20px;
+  -webkit-transform: rotate(-5deg);
+          transform: rotate(-5deg);
+  border: 2.5px solid #47467C;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+main #features .container .row .col-md-4 .card {
+  -webkit-transition: .2s all;
+  transition: .2s all;
+}
+
+main #features .container .row .col-md-4 .card:hover {
+  border: 1px solid #47467C;
+  -webkit-transform: translateY(-10px);
+          transform: translateY(-10px);
+}
+
+main #features .container .row .col-md-4 .card img {
+  height: 30vh;
+}
+
+main #features .container .row .col-md-4 .card .card-body h3 {
+  font-size: 30px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #353333;
+}
+
+main #features .container .row .col-md-4 .card .card-body p {
+  line-height: 1.7;
+  font-size: 18px;
+  font-family: Poppins;
+  color: #6e6c6c;
+}
+
+main #about .container .row .col-md-6 .carousel .carousel-inner .carousel-item img {
+  border-radius: 12px;
+  opacity: .7;
+  height: 50vh;
+}
+
+main #about .container .row .col-md-6 h1 {
+  margin-top: 15px;
+  font-size: 55px;
+  line-height: 1;
+}
+
+main #about .container .row .col-md-6 p {
+  font-size: 20px;
+  line-height: 2;
+}
+
+.visit-school {
+  margin-top: 40px;
+  background-color: #47467C !important;
+  border: none;
+  border-radius: 0;
+  padding: 20px 25px;
+}
+
+.visit-school .row .col-md-8 h1 {
+  line-height: 1.1;
+}
+
+.visit-school .row .col-md-4 a {
+  padding: 8px 50px;
+  background-color: #00B4CB;
+  border: 2px solid #00B4CB;
+  font-weight: 700;
+  font-size: 20px;
+  -webkit-transition: .9s transform;
+  transition: .9s transform;
+  letter-spacing: 1.2px;
+}
+
+.visit-school .row .col-md-4 a:hover {
+  background-color: transparent;
+  -webkit-transform: translateY(-8px);
+          transform: translateY(-8px);
+}
+
+#gallary .container .row .col-md-4 img {
+  height: 30vh;
+  overflow: hidden;
+  width: 100%;
+  padding-bottom: 10px;
+  -webkit-transition: .3s transform;
+  transition: .3s transform;
+  z-index: 55;
+}
+
+#gallary .container .row .col-md-4 img:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  z-index: 99999999;
+  opacity: .92;
+}
+
+#testimonial .container .row .col-md-4 .card {
+  border: 1px solid #47467C;
+}
+
+#testimonial .container .row .col-md-4 .card img {
+  padding-top: 20px;
+  height: 19vh;
+  width: 18vh;
+  border-radius: 100%;
+}
+
+#testimonial .container .row .col-md-4 .card p {
+  font-size: 20px;
+  line-height: 1.6;
+}
+
+#testimonial .container .row .col-md-4 .card .card-footer {
+  border: none;
+}
+
+#testimonial .container .row .col-md-4 .card .card-footer p {
+  font-size: 18px;
+  color: #2b2a2a;
+}
+
+#testimonial .container .row .col-md-4 .card .card-footer h4 {
+  margin: 0px;
+  font-size: 22px;
+  color: #535050;
+}
+
+footer {
+  background-color: #47467C;
+  margin-top: 20px;
+  color: #fff;
+  padding: 20px;
+}
+
+footer .row .col-md-8 {
+  font-size: 22px;
+}
+
+footer .row .col-md-4 {
+  font-size: 22px;
+}
+/*# sourceMappingURL=style.css.map */
